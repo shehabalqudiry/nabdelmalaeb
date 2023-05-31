@@ -1,0 +1,5 @@
+@extends('layouts.errors')
+@section('title', __('Too Many Requests'))
+@section("content", "عفواً هناك ضغط علي السيرفر حاليا الرجاء اعادة المحاولة")
+@section('code', '429')
+@section('message', __('Too Many Requests'))

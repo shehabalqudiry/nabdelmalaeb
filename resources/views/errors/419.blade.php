@@ -1,0 +1,5 @@
+@extends('layouts.errors')
+@section('title', __('Page Expired'))
+@section("content", "عفواً هذه الصفحة منتهية الصلاحية الرجاء اعادة المحاولة")
+@section('code', '419')
+@section('message', __('Page Expired'))

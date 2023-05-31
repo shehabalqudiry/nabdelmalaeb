@@ -1,0 +1,5 @@
+@extends('layouts.errors')
+@section('title', __('Forbidden'))
+@section("content", "عفواً يبدو انك تحاول الدخول الي مكان خطأ")
+@section('code', '403')
+@section('message', __($exception->getMessage() ?: 'Forbidden'))

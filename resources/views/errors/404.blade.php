@@ -1,0 +1,5 @@
+@extends('layouts.errors')
+@section('title', __('عفواً هذه الصفحة غير موجوده'))
+@section("content", "عفواً هذه الصفحة غير موجوده")
+@section('code', '404')
+@section('message', __('Not Found'))
